@@ -86,3 +86,20 @@ table{
   transform: scale(1.1);
   border: solid lightgray;
 }
+
+.input_field {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+}
+
+.input_field input, .input_field select {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    max-width: 400px;
+}
